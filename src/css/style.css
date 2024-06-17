@@ -1,0 +1,30 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color:rgb(202, 201, 178);
+}
+
+.field {
+	display: flex;
+	flex-wrap: wrap;
+	width: 500px;
+	height: 500px;
+	border: 1px solid black;
+	margin: auto;
+	background-color: rgb(45, 212, 92);
+}
+
+.cell {
+	width: 25%;
+	height: 25%;
+	border: 2px solid black;
+}
+
+.goblin {
+	background-image: url('../img/image.png');
+  	background-repeat: no-repeat;
+  	background-size: contain;
+  	background-position: center;
+}
